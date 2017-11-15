@@ -23,7 +23,7 @@ def solution(n, k):
             out(ans, i-1, k)
         else:
             print('10', end='')
-            out(ans, i-2, ans[i] - k)
+            out(ans, i-2, k - ans[i-1])
 
 
 
