@@ -1,6 +1,6 @@
 '''
 Given: matrix nxm where each (i,j) is integer non-negative number
-turtle moves from (0,0) to (n-1, m-1)
+turtle moves from (0,0) to (n-1, m-1) using any k step in k_vestors
 
 Find the maximum sum the turtle can collect on its way
 '''
