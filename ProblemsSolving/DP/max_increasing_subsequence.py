@@ -19,7 +19,8 @@ def solution(a):
     n = len(a)
     ans = [0] * n
     ans[0] = 1
-    for i in range(n):
+
+    for i in range(1,n):
         ans[i] = 1
         a_max = 0
         for j in range(i):

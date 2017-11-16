@@ -49,15 +49,6 @@ ways = [
 for way in ways:
     print(solution(way, 3, 3))
 
-'''
-nxm
-1
-R > U
-R {way} i
-U {way} j
-
-
-'''
 
 
 

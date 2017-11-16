@@ -28,7 +28,7 @@ def solution(mat):
     n = len(mat)
     m = len(mat[0])
 
-    steps = [ [0, 1],  # up
+    steps = [ [0, 1],  # down
               [1, 0]]  # right
     for i in range(n):
         for j in range(m):
